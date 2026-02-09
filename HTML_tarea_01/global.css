@@ -1,0 +1,14 @@
+
+#personajes img {
+  width: 200px;
+  border: 10px 
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid red;
+  outline-offset: 3px;
+}
