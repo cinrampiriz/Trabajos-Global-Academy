@@ -1,3 +1,7 @@
+#personajes img {
+  width: 200px;
+  border: 10px;
+}
 body {
   margin: 0;
   background-color: #0b0b0b;
