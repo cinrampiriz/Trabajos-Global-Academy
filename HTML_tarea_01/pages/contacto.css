@@ -6,52 +6,102 @@ body {
   font-size: 18px;
 }
 
-h1, h2, h3 {
-    font-family: 'Creepster', cursive;
-    letter-spacing: 2px;
-    font-size: 40px;
+h2 {
+  font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
 }
 
-.personajes_home a,
-.temporadas_home a {
-    font-family: 'Creepster', cursive;
-}
 
-header img {
-  width: 30%;
-  height: 30%;
-  margin-left: 450px;
-
-}
+/* HEADER */
 header {
   background-color: #b11226;
-  padding: 20px;
-
-}
-
-header a {
-  color: white;
-  text-decoration: none;
-}
-
-
-a:focus,
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  outline: 3px solid red;
-  outline-offset: 3px;
-}
-
-
-footer {
-  background-color: #1b263b;
   padding: 20px;
   text-align: center;
 }
 
-h1, h2, p {
-text-align: center;
+/* selector descendente */
+header img {
+  width: 300px;
+}
 
+/* selector descendente */
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* selector descendente */
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* formulario */
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #1b1b1b;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Labels */
+form label {
+  font-weight: 600;
+}
+
+/* Inputs y textarea */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo especial */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid #b11226;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Botón */
+button {
+  background-color: #b11226;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover del botón */
+button:hover {
+  background-color: #ff1a3c;
+}
+
+/* Párrafos centrados */
+p {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1b263b;
+  padding: 20px;
+  text-align: center;
 }

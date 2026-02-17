@@ -1,47 +1,98 @@
+/* ID selector */
 #temporadas img {
   width: 200px;
   height: 200px;
-  border: 10px;
+  border: 3px solid #b11226;
+  border-radius: 8px;
+  display: block; 
+  margin: 20px auto;
 }
 
+
+/* BODY */
 body {
   margin: 0;
   background-color: #0b0b0b;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 
-h1, h2, h3 {
-    font-family: 'Creepster', cursive;
-    letter-spacing: 2px;
-    font-size: 40px;
+
+/* TITULOS (selector múltiple) */
+h1,
+h2,
+h3 {
+  font-family: "Creepster", cursive;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-align: center;
 }
 
-.personajes_home a,
-.temporadas_home a {
-    font-family: 'Creepster', cursive;
-}
 
-header img {
-  width: 30%;
-  height: 30%;
-  margin-left: 450px;
-
-}
+/* HEADER */
 header {
   background-color: #b11226;
   padding: 20px;
-
+  text-align: center; /* mejor que margin-left */
 }
 
+/* selector descendente */
+header img {
+  width: 300px;
+}
+
+/* selector descendente */
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* selector descendente */
 header a {
   color: white;
   text-decoration: none;
 }
 
+/* pseudoclase */
+header a:hover {
+  color: black;
+}
 
-a:focus,
+
+/* SECCIÓN TEMPORADAS */
+
+/* selector descendente */
+#temporadas article {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* selector descendente */
+#temporadas p {
+  text-align: center;
+  margin: 15px 0;
+}
+
+/* pseudoclase */
+#temporadas img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* nth-of-type */
+#temporadas h3:nth-of-type(even) {
+  color: #b11226;
+}
+
+/* selector de atributo */
+img[alt] {
+  box-shadow: 0 0 10px black;
+}
+
+
+/* ACCESIBILIDAD */
+
 button:focus,
 input:focus,
 select:focus,
@@ -50,14 +101,9 @@ textarea:focus {
   outline-offset: 3px;
 }
 
-
+/* FOOTER */
 footer {
   background-color: #1b263b;
   padding: 20px;
   text-align: center;
-}
-
-h1, h2, p {
-text-align: center;
-
 }
