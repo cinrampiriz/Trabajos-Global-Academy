@@ -1,0 +1,51 @@
+/* SELECTOR UNIVERSAL */
+/* * {
+   color: blue; 
+} */
+
+/* SELECTOR DE ETIQUETA */
+/* p {
+    color: red;
+} */
+
+/* SELECTOR DE CLASE */
+/* .equipo {
+    color: green;
+} */
+
+/* SELECTOR DE ID */
+/* #unico {
+    color: yellow;
+} */
+
+/* 
+    ESPECIFICIDAD
+
+    Significa que cuanto más especifico es un
+    selector, mayor prioridad tiene.
+*/
+
+/******** SELECTORES COMBINADOS ***********/
+/******* SELECTOR DE HIJO *******/
+/* section > h2 {
+    color: blue;
+} */
+
+
+/******* SELECTOR DE HERMANOS *******/
+/* h2 ~ p { 
+ color: red;
+} */
+
+/******* SELECTOR DE HERMANO ADYASCENTE *******/
+/* h2 + p {
+    color: green;
+} */
+
+
+
+/******* SELECTOR DE ATRIBUTO *******/
+/* input[type="text"]{
+    color: red;;
+} */
+
