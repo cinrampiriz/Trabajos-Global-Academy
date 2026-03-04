@@ -1,0 +1,39 @@
+/* 
+    BOX MODELING
+
+    En CSS pensamos los containers como cajas. Cada caja
+    tiene 4 caracteristicas que nosotros podemos manipular.
+    - Contenido
+    - Relleno
+    - Borde
+    - Margen
+
+    El contenido hace referncia a todo aquello que colocamos
+    entre las etiquetas de un elemento. Ya sea texto u
+    otros elementos.
+
+    El relleno es todo el espacio dentro del container que no es contenido.
+
+    El borde es la linea que marca los limites del container.
+    Se puede manipular tanto su grosor, como su tipo y su color.
+
+    El margen es el espacio exterior al borde que permite
+    elegir cuanto queremos desplazar los elementos adyascentes
+    a nuestro contenedor.
+*/
+
+* {
+    margin: 0;
+}
+
+.box {
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    margin: 50px 100px 150px 200px;
+}
+.box2 {
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+}

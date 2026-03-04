@@ -1,0 +1,27 @@
+
+
+.container {
+    background-image: url(/clase_09_css_03/patito.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 50%;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+
+.container > .filter {
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: inherit;
+    width: inherit;
+
+    /* CENTRA UN HIJO EN EL MEDIO DE SU PADRE */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3 {
+    font-size: 3rem;
+    color: white;
+}

@@ -1,0 +1,22 @@
+/********* COLORES *********/
+
+/* 
+    RGB -> rbg(100, 150, 73) -> 0 - 255
+        -> RED GREEN BLUE
+
+
+    HEXADECIMAL -> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+    # 2E    AC      4F
+      red  green   blue
+
+    1er * 2do + ( 1er + 2do )
+*/
+
+
+.container {
+    background-color: #865540;
+    height: 200px;
+    width: 200px;
+}
+
