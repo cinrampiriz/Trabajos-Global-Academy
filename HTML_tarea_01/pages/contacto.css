@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #0b0b0b;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+
+/* HEADER */
+header {
+  background-color: #b11226;
+  padding: 20px;
+  text-align: center;
+}
+
+/* selector descendente */
+header img {
+  width: 300px;
+}
+
+/* selector descendente */
+header nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* selector descendente */
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* formulario */
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #1b1b1b;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Labels */
+form label {
+  font-weight: 600;
+}
+
+/* Inputs y textarea */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo especial */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid #b11226;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Botón */
+button {
+  background-color: #b11226;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hover del botón */
+button:hover {
+  background-color: #ff1a3c;
+}
+
+/* Párrafos centrados */
+p {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1b263b;
+  padding: 20px;
+  text-align: center;
+}
