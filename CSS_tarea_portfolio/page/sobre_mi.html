@@ -1,46 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
 
-<title>Portfolio</title>
+    <link rel="stylesheet" href="../page/styles.css" />
 
-<link rel="stylesheet" href="../page/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/Logo1.png" />
+  </head>
 
-<link  rel="icon" href="../images/logo.png"/>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="../images/logo.png" alt="logo" />
+        </div>
 
-</head>
+        <input type="checkbox" id="menu-toggle" />
 
-<body>
+        <label for="menu-toggle" class="menu-icon"> ☰ </label>
+
+        <ul class="menu">
+          <li><a href="../page/index.html">Inicio</a></li>
+          <li><a href="../page/sobre_mi.html">Sobre mí</a></li>
+          <li><a href="../page/proyectos.html">Proyectos</a></li>
+          <li><a href="../page/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <section class="sobre-mi">
+      <h2>Sobre mí</h2>
 
-<h2>Sobre mí</h2>
+      <div class="experiencia">
+        <div class="card">
+          <h3>Frontend Developer</h3>
+          <p>Desarrollo de interfaces web con HTML y CSS.</p>
+        </div>
 
-<div class="experiencia">
+        <div class="card">
+          <h3>Diseñadora Web</h3>
+          <p>Diseño de sitios modernos y responsivos.</p>
+        </div>
 
-<div class="card">
-<h3>Frontend Developer</h3>
-<p>Desarrollo de interfaces web con HTML y CSS.</p>
-</div>
+        <div class="card">
+          <h3>Proyectos Freelance</h3>
+          <p>Creación de páginas web para pequeños negocios.</p>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h3>Diseñadora Web</h3>
-<p>Diseño de sitios modernos y responsivos.</p>
-</div>
+    <footer class="footer">
+      <div class="footer-contenido">
+        <div class="footer-info">
+          <h3>Contacto</h3>
+          <p>Email: contactocin.dev@gmail.com</p>
+          <p>Tel: +54 341 6560714</p>
+          <p>Rosario, Argentina</p>
+        </div>
 
-<div class="card">
-<h3>Proyectos Freelance</h3>
-<p>Creación de páginas web para pequeños negocios.</p>
-</div>
+        <div class="footer-redes">
+          <h3>Redes</h3>
+          <p>Instagram: @cinrampiriz</p>
+          <p>LinkedIn: @cinrampiriz</p>
+          <p>GitHub: @cinrampiriz</p>
+        </div>
+      </div>
 
-</div>
-
-</section>
-
-
-</body>
+      <p class="footer-copy">Hecho por Cintia, Ramirez Piriz</p>
+    </footer>
+  </body>
 </html>
