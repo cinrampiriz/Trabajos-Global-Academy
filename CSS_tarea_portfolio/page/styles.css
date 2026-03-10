@@ -200,3 +200,52 @@ height:300px;
 width:400px;
 object-fit:cover;
 }
+
+.contacto{
+padding:80px 60px;
+text-align:center;
+}
+
+.formulario{
+max-width:500px;
+margin:auto;
+
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.formulario textarea{
+height:120px;
+resize:none;
+}
+
+.formulario button{
+background:#6366f1;
+color:white;
+border:none;
+padding:12px;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+.formulario button:hover{
+background:#4f46e5;
+}
+
+@media (min-width:768px){
+
+.contacto{
+padding:60px 40px;
+}
+
+}
+
+@media (min-width:1400px){
+
+.contacto{
+padding:80px 60px;
+}
+
+}
